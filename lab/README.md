@@ -20,16 +20,15 @@ These instructions are for participants of the **instructor-led** Workshop **Mod
 
 ## Lab Overview
 
-This lab demonstrates a cloud-native analytics solution using Microsoft Fabric with Copilot and Azure Databricks, designed for cost-efficiency and performance. It showcases how this architecture unifies data estates to accelerate value creation.
+This lab demonstrates a cloud-native analytics solution using Microsoft Fabric with Copilot, designed for cost-efficiency and performance. It showcases how this architecture unifies data estates to accelerate value creation.
 
-The scenario centers on Zava, a regional DIY retailer acquiring Litware Inc., which holds curated marketing and sales data processed via Azure Databricks and stored in ADLS Gen2. Zava also maintains customer churn data in the same storage layer.
+The scenario centers on Zava, a regional DIY retailer acquiring Litware Inc., which holds curated marketing and sales data processed via data stored in ADLS Gen2. Zava also maintains customer churn data in the same storage layer.
 
 Through the exercises, you'll explore how Zava:
 
 - Ingests data from diverse sources into OneLake
 - Uses shortcuts to reference Litware’s existing data
 - Leverages Unity Catalog to understand and select relevant data
-- Mirrors selected data into OneLake via Azure Databricks Catalog
 - Builds LLM-powered chatbots to uncover market sentiment
 
 The lab begins on January 30th, as Zava’s new CEO, Kayo, responds to troubling KPIs:
@@ -44,7 +43,6 @@ The lab begins on January 30th, as Zava’s new CEO, Kayo, responds to troubling
 To address these, Kayo tasks CTO Carlos and his team, Bryan (data engineer), Reta (data scientist), and Eric (data analyst), with designing a data-driven solution. They tackle data silos and integration challenges using:
 
 - OneLake for unified data storage
-- Mirrored Azure Databricks Catalog for legacy data access
 - ADLS Gen2 shortcuts for efficient data referencing
 - Power BI for data visualization and reporting
 - Data Agents and AI Foundry agents for conversational insights
@@ -55,27 +53,35 @@ Select **Next >** to go to the first exercise.
 
 ===
 
-!INSTRUCTIONS [Exercise 1: Data ingestion](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-1-ingest-data.md)
+!INSTRUCTIONS [Exercise 1.1: Data ingestion](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-1-1-ingest-data.md)
 
 ===
 
-!INSTRUCTIONS [Exercise 2: Mirror Azure Databricks in Fabric](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-2-dlt-pipeline-with-azure-databricks.md)
+!INSTRUCTIONS [Exercise 1.2: Data ingestion](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-1-2-ingest-data-shortcuts.md)
 
 ===
 
-!INSTRUCTIONS [Exercise 3: Build Conversational AI Insights](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-3-power-bi-report.md)
+!INSTRUCTIONS [Exercise 1.3: Data ingestion](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-1-3-ingest-data-notebooks.md)
 
 ===
 
-!INSTRUCTIONS [Exercise 4: Build Power BI Report](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-4-mirror-azure-databricks.md)
+!INSTRUCTIONS [Exercise 2: Build Power BI Report](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-2-power-bi-report.md)
 
 ===
 
-!INSTRUCTIONS [Exercise 5: Build Fabric Data Agents](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-5-build-fabric-data-agents.md)
+!INSTRUCTIONS [Exercise 3.1: Build Fabric Data Agents](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-3-1-build-fabric-data-agents.md)
 
 ===
 
-!INSTRUCTIONS [Exercise 6: Clean up resources](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-6-clean-up-resources.md)
+!INSTRUCTIONS [Exercise 3.2: Build Fabric Data Agents](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-3-2-build-fabric-data-agent-connections.md)
+
+===
+
+!INSTRUCTIONS [Exercise 3.3: Build Fabric Data Agents](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-3-3-build-fabric-data-agent-ai-foundry.md)
+
+===
+
+!INSTRUCTIONS [Exercise 4: Clean up resources](https://raw.githubusercontent.com/microsoft/aitour26-WRK560-modernize-your-data-estate-ms-fabric-azure-databricks-and-ai-foundry/main/lab/instructions/tutorial-4-clean-up-resources.md)
 
 ## Discussions
 

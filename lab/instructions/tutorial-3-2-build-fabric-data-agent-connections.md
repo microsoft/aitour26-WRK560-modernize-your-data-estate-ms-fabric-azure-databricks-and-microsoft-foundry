@@ -1,4 +1,4 @@
-## Task 5.2: Establish Azure OpenAI and Fabric connections in AI Foundry
+## Task 3.2: Establish Azure OpenAI and Fabric connections in AI Foundry
 
 Zava integrated all of their data sources using Microsoft Fabric, including customer feedback, sales
 records, social media interactions, and encompassing internal company policy documents such as SOPs
