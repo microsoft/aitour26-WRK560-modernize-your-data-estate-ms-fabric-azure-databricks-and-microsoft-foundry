@@ -1,4 +1,4 @@
-## Task 5.3: Build an AI Foundry agent grounded with Fabric data
+## Task 3.3: Build an AI Foundry agent grounded with Fabric data
 
 In this task, you assist Reta to create an AI Foundry agent that leverages the Fabric Data Agent you created earlier. This agent will be able to answer questions about Zava's customer and sales data using natural language.
 

@@ -31,4 +31,4 @@ Now, let’s see how Data Engineer, Bryan, got the remaining data into OneLake b
 
 ### Next Step
 
-> Select **Next >** to Build DLT Pipelines in Azure Databricks
+> Select **Next >** to Analyze Campaign Performance using Power BI
